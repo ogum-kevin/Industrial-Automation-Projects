@@ -1,6 +1,5 @@
 # Industrial-Automation-Projects
-Industrial Automation Automation projects using FactoryIO ,Codesys,Node-RED,OPC-UA,KepserverEX and AWS
-Certainly! Here's the revised version with an added contact section that includes an email address and a LinkedIn link:
+Industrial Automation Automation projects using FactoryIO ,Codesys,Node-RED,OPC-UA,KepserverEX and AWS.
 
 **Repository Description:**
 
