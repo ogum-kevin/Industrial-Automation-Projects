@@ -26,6 +26,8 @@ Explore cutting-edge industrial automation solutions leveraging Factory IO. This
 - HMI Development 
 - Industrial Communication Protocols (e.g., OPC-UA ,Modbus)
 - Simulation with Factory IO
+- IIoT with AWS
+- Node-RED
 
 👩‍💻 **How to Use:**
 1. Clone the repository.
