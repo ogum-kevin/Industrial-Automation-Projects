@@ -46,6 +46,8 @@ By delving into the FactoryIO's A to B scene, we embark on a journey to explore 
 |------------------------|-----------------------------------------------------------|
 | ![Codesys Logo](./images/codesys-logo.png)  | Codesys PLC: Responsible for logic and control.            |
 | ![FactoryIO Logo](./images/factoryio-logo.png) | FactoryIO: Simulates the industrial environment.          |
+| ![FactoryIO Logo](./images/factoryio-logo.png) | FactoryIO: Simulates the industrial environment.          |
+| ![FactoryIO Logo](./images/factoryio-logo.png) | FactoryIO: Simulates the industrial environment.          |
 
 *Figure 1: System Architecture*
 
