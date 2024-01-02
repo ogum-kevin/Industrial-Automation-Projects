@@ -2,21 +2,21 @@
 
 ## Overview
 
-This documentation provides details about the integration of FactoryIO with Codesys as the PLC for the [Your Scene Name] scene.
+This documentation provides details about the integration of FactoryIO with Codesys as the PLC for the 🏭 [Your Scene Name] scene.
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [System Architecture](#system-architecture)
-3. [Setup](#setup)
-    - [Prerequisites](#prerequisites)
-    - [Configuration](#configuration)
-4. [PLC Programming](#plc-programming)
-5. [FactoryIO Configuration](#factoryio-configuration)
-6. [Simulation](#simulation)
-7. [Troubleshooting](#troubleshooting)
-8. [Contributing](#contributing)
-9. [License](#license)
+1. [Introduction](#introduction) 🌐
+2. [System Architecture](#system-architecture) 🛠️
+3. [Setup](#setup) 
+    - [Prerequisites](#prerequisites) 📋
+    - [Configuration](#configuration) ⚙️
+4. [PLC Programming](#plc-programming) 💻
+5. [FactoryIO Configuration](#factoryio-configuration) 🏭
+6. [Simulation](#simulation) 🚀
+7. [Troubleshooting](#troubleshooting) 🛠️
+8. [Contributing](#contributing) 🤝
+9. [License](#license) 📜
 
 ## Introduction
 
@@ -35,15 +35,15 @@ Describe the components in the architecture table and their interactions. Explai
 
 ## Setup
 
-### Prerequisites
+### Prerequisites 📋
 
 List any prerequisites that users need to have installed or set up before using this FactoryIO scene.
 
-### Configuration
+### Configuration ⚙️
 
 Explain how to configure the environment to run the FactoryIO scene with Codesys as the PLC. Include steps for setting up communication between FactoryIO and Codesys.
 
-## PLC Programming
+## PLC Programming 💻
 
 Provide details about the Codesys programming for the PLC. Include code snippets, explanations, and any specific configurations required for the integration.
 
@@ -54,4 +54,3 @@ VAR
 END_VAR
 
 // Your Codesys PLC program
-
