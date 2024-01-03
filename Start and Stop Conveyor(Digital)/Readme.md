@@ -183,6 +183,23 @@ END_VAR
   - The 🔄 Retroreflective PE Sensor is blocked.
 
 This logic orchestrates the behavior of the PLC, ensuring a dynamic and responsive control system for the simulated industrial environment. 🛠️✨
+## PLC Program Screenshots 🖥️
+
+### Start Logic
+![Start Logic](../images/start_light.png)
+
+### Stop Logic
+![Stop Logic](../images/red_light.png)
+
+### Reset Logic
+![Reset Logic](../images/reset_light.png)
+
+### Warning Lights Logic
+![Warning Lights Logic](../images/warning_light.png)
+
+### Yellow Stack Light Logic
+![Yellow Stack Light Logic](../images/yellow_light.png)
+
 
 
 
