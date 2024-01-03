@@ -68,7 +68,7 @@ In the intricately woven tapestry of FactoryIO, KepserverEx, and Codesys PLC, a 
 
 This communication triad forms a dynamic cycle, where data generated in FactoryIO influences the actions of the Codesys PLC, and the subsequent control signals from the PLC shape the ongoing simulation within FactoryIO.
 
-##Architecture  Diagram
+Architecture  Diagram
 
 ![Achitecture Diagram](../images/Start_Stop_Architecture_Diagram_.gif)
 
@@ -83,20 +83,54 @@ For a detailed view, you can explore the high-resolution ![Codesys Logo](../imag
 
 ### Prerequisites 📋
 
-List any prerequisites that users need to have installed or set up before using this FactoryIO scene.
+- FactoryIO 🏭
+- KepserverEx ⚙️
+- Codesys PLC 💻
+
 
 ### Configuration ⚙️
 
-Explain how to configure the environment to run the FactoryIO scene with Codesys as the PLC. Include steps for setting up communication between FactoryIO and Codesys.
+Tutorial on  how to configure the environment to run the FactoryIO scene with Codesys as the PLC. Include steps for setting up communication between FactoryIO and Codesys with KepserverEX.
+!! Feel free to use UA-Expert or any OPC-UA client as  it will work just as well.
+[Watch the Tutorial](https://www.youtube.com/watch?v=wAZV-5Db2Rc)
+
 
 ## PLC Programming 💻
 
 Provide details about the Codesys programming for the PLC. Include code snippets, explanations, and any specific configurations required for the integration.
 
 ```codesys
-// Sample Codesys PLC code
 VAR
-    // Your variables here
+    //**********INPUTS ***********//
+	//This are push buttons 
+	FIO_StartPB      : BOOL; //COLOR GREEN
+	FIO_StopPB       : BOOL;  //COLOR RED
+	FIO_ResetPB      : BOOL;  //COLOR YELLOW Resets the simulation environment
+	FIO_EmergencyPB   :BOOL;
+	//Sensor
+	FIO_Retro_reflective_Sensor :BOOL;
+	
+	//**** End ****//
+	
+	//**************OUTPUTS**********//
+	FIO_Start_PB_Light  : BOOL; //push button light 
+	FIO_Stop_PB_Light   : BOOL; //push button light
+	//FIO_Reset_PB_Light  : BOOL; //push button light
+	
+	//Stack lights
+	FIO_Green_Stack_Light   : BOOL;
+	FIO_Red_Stack_Light     : BOOL;
+	FIO_Yellow_Stack_Light  : BOOL; 
+	
+	//
+	FIO_Conveyor            : BOOL;
+	FIO_Warning_Light       : BOOL;
+	FIO_Simulation          : BOOL;
+	
+	//***End***//
+	// SET AND RESET Function block for controlling the conveyor
+	Conveyor_SR: RS;
+	// Reset -Set Function Block for the conveyor runnng warning lights
+	Warning_Light_SR: RS;
 END_VAR
 
-// Your Codesys PLC program
