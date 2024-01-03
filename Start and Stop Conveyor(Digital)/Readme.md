@@ -91,6 +91,8 @@ For a detailed view, you can explore the high-resolution ![Codesys Logo](../imag
 ### Configuration ⚙️
 
 Tutorial on  how to configure the environment to run the FactoryIO scene with Codesys as the PLC. Include steps for setting up communication between FactoryIO and Codesys with KepserverEX.
+
+
 !! Feel free to use UA-Expert or any OPC-UA client as  it will work just as well.
 [Watch the Tutorial](https://www.youtube.com/watch?v=wAZV-5Db2Rc)
 
@@ -98,6 +100,26 @@ Tutorial on  how to configure the environment to run the FactoryIO scene with Co
 ## PLC Programming 💻
 
 Provide details about the Codesys programming for the PLC. Include code snippets, explanations, and any specific configurations required for the integration.
+
+### FactoryIO Scenes
+
+#### Side View
+
+![FactoryIO Side View](../images/factoryIo_Side.png)
+
+*Figure 2: FactoryIO Side View*
+
+#### Front View
+
+![FactoryIO Front View](../images/front.png)
+
+*Figure 3: FactoryIO Front View*
+
+#### Top View
+
+![FactoryIO Top View](../images/top_view.png)
+
+*Figure 4: FactoryIO Top View*
 
 ```codesys
 VAR
