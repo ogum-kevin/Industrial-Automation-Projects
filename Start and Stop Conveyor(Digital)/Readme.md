@@ -69,15 +69,15 @@ In the intricately woven tapestry of FactoryIO, KepserverEx, and Codesys PLC, a 
 This communication triad forms a dynamic cycle, where data generated in FactoryIO influences the actions of the Codesys PLC, and the subsequent control signals from the PLC shape the ongoing simulation within FactoryIO.
 
 **Architecture  Diagram:**
+![Architecture Diagram](../images/Sart_Stop_Architecture_Diagram.gif)
 
-[![Architecture Diagram](../images/Start_Stop_Architecture_Diagram (1).gif)]()
 
 *Figure 2: FactoryIO Setup Diagram*
 
 ## Setup
 The diagram above encapsulates the essence of the FactoryIO setup, illustrating the interconnected nodes of FactoryIO, KepserverEx, and Codesys PLC. Arrows denote the flow of data, showcasing the synergy that drives the simulation forward.
 
-For a detailed view, you can explore the high-resolution [!Factoy IO Setup](../images/Screenshot (250).pn).
+For a detailed view, you can explore the high-resolution ![Codesys Logo](../images/FactoryIOsetup.png).
 
 
 ### Prerequisites 📋
