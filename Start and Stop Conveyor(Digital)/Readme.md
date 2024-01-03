@@ -70,14 +70,14 @@ This communication triad forms a dynamic cycle, where data generated in FactoryI
 
 **Architecture  Diagram:**
 
-[![Architecture Diagram](./images/factoryio_setup_diagram.gif)](https://example.com/factoryio_setup_diagram.gif)
+[![Architecture Diagram](../images/Start_Stop_Architecture_Diagram (1).gif)]()
 
 *Figure 2: FactoryIO Setup Diagram*
 
 ## Setup
 The diagram above encapsulates the essence of the FactoryIO setup, illustrating the interconnected nodes of FactoryIO, KepserverEx, and Codesys PLC. Arrows denote the flow of data, showcasing the synergy that drives the simulation forward.
 
-For a detailed view, you can explore the high-resolution [!Factoy IO Setup](https://example.com/factoryio_setup_diagram.png).
+For a detailed view, you can explore the high-resolution [!Factoy IO Setup](../images/Screenshot (250).pn).
 
 
 ### Prerequisites 📋
