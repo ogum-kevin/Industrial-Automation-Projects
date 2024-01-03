@@ -46,14 +46,39 @@ By delving into the FactoryIO's A to B scene, we embark on a journey to explore 
 |------------------------|-----------------------------------------------------------|
 | ![Codesys Logo](../images/Codesys_Logo.png.png)  | Codesys PLC: Responsible for logic and control.            |
 | ![FactoryIO Logo](../images/FactoryIOLogo.png) | FactoryIO: Simulates the industrial environment.          |
-| ![FactoryIO Logo](../images/KepserverExLogo.webp) | FactoryIO: Simulates the industrial environment.          |
-| ![FactoryIO Logo](./images/factoryio-logo.png) | FactoryIO: Simulates the industrial environment.          |
+| ![KepserverEx Logo](../images/KepserverExLogo.webp) | KepserveeEX: OPC-UA Client(Links FactoryIO to PLC).          |
 
 *Figure 1: System Architecture*
 
-Describe the components in the architecture table and their interactions. Explain the flow of data between FactoryIO and Codesys.
+**Communication Flow in the System Architecture:**
+
+In the intricately woven tapestry of FactoryIO, KepserverEx, and Codesys PLC, a synchronized dance of data ensures the seamless orchestration of industrial automation. Let's unravel the communication flow that propels this synergy:
+
+1. **FactoryIO to KepserverEx:**
+   - **Data Generation:** Within FactoryIO, dynamic scenarios unfold as it generates realistic data representing the industrial environment, from conveyor movements to sensor inputs.
+   - **Communication Initiation:** This data is then transmitted to KepserverEx, a robust industrial communication platform, establishing a vital link between the virtual world of FactoryIO and the data processing hub.
+
+2. **KepserverEx to Codesys PLC:**
+   - **Data Translation:** KepserverEx undertakes the responsibility of translating the incoming data into a language understood by Codesys PLC, ensuring seamless compatibility.
+   - **Data Transmission:** The translated data is then relayed to the Codesys PLC, acting as the digital maestro orchestrating logic and control operations.
+
+3. **Codesys PLC to FactoryIO:**
+   - **Control Logic Execution:** Codesys PLC executes control logic based on the received data, influencing the behavior of the simulated industrial processes.
+   - **Feedback to FactoryIO:** The PLC communicates feedback and control signals back to FactoryIO, closing the loop of interaction and mirroring the bidirectional nature of real-world industrial systems.
+
+This communication triad forms a dynamic cycle, where data generated in FactoryIO influences the actions of the Codesys PLC, and the subsequent control signals from the PLC shape the ongoing simulation within FactoryIO.
+
+**Architecture  Diagram:**
+
+[![Architecture Diagram](./images/factoryio_setup_diagram.gif)](https://example.com/factoryio_setup_diagram.gif)
+
+*Figure 2: FactoryIO Setup Diagram*
 
 ## Setup
+The diagram above encapsulates the essence of the FactoryIO setup, illustrating the interconnected nodes of FactoryIO, KepserverEx, and Codesys PLC. Arrows denote the flow of data, showcasing the synergy that drives the simulation forward.
+
+For a detailed view, you can explore the high-resolution [!Factoy IO Setup](https://example.com/factoryio_setup_diagram.png).
+
 
 ### Prerequisites 📋
 
