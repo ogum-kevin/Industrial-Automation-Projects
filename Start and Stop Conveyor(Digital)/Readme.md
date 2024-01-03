@@ -199,6 +199,16 @@ This logic orchestrates the behavior of the PLC, ensuring a dynamic and responsi
 
 ### Yellow Stack Light Logic
 ![Yellow Stack Light Logic](../images/yellow_light.PNG)
+## Results 🎬
+
+### Video Overview
+[![PLC Program in Action](../images/thumbnail.png)](../images/Results.mp4)
+
+*Click the thumbnail to watch the PLC Program in Action.*
+
+### Conclusion
+
+This concludes our exploration of the PLC program's functionality. Feel free to review the video for a visual representation of the described logic in action.
 
 
 
