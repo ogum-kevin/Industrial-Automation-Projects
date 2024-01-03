@@ -186,19 +186,19 @@ This logic orchestrates the behavior of the PLC, ensuring a dynamic and responsi
 ## PLC Program Screenshots 🖥️
 
 ### Start Logic
-![Start Logic](../images/start_light.png)
+![Start Logic](../images/start_light.PNG)
 
 ### Stop Logic
-![Stop Logic](../images/red_light.png)
+![Stop Logic](../images/red_light.PNG)
 
 ### Reset Logic
-![Reset Logic](../images/reset_light.png)
+![Reset Logic](../images/reset_light.PNG)
 
 ### Warning Lights Logic
-![Warning Lights Logic](../images/warning_light.png)
+![Warning Lights Logic](../images/warning_light.PNG)
 
 ### Yellow Stack Light Logic
-![Yellow Stack Light Logic](../images/yellow_light.png)
+![Yellow Stack Light Logic](../images/yellow_light.PNG)
 
 
 
