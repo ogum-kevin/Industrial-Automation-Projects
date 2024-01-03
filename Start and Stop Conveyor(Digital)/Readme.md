@@ -211,7 +211,7 @@ This logic orchestrates the behavior of the PLC, ensuring a dynamic and responsi
 This concludes our exploration of the PLC program's functionality. Feel free to review the video for a visual representation of the described logic in action.## Documentation and Program Files 📄
 
 ### Program Documentation
-[Download PDF](../images/program_documentation.pdf)
+[Download PDF](../images/project_documentation.pdf)
 
 ### Codesys Program File
 [Download Codesys Program (.pro) File](../images/Start_And_Stop_Conveyors.project)
