@@ -155,37 +155,36 @@ VAR
 	// Reset -Set Function Block for the conveyor runnng warning lights
 	Warning_Light_SR: RS;
 END_VAR
-
+```
 ## PLC Program Logic Overview 🧠
 
-### Start Logic
-
+**Start Logic:**
 - When the 🚀 Start Pushbutton is pressed:
   - 🏭 Conveyor starts and remains on.
   - 💡 Start Button Light and 🟢 Green Stack Light are turned on when the conveyor is on.
   - They remain on unless the ⛔ Stop Pushbutton, 🚨 Emergency Pushbutton, or 🔄 Retroreflective PE Sensor is blocked.
 
-### Stop Logic
-
+**Stop Logic:**
 - When the ⛔ Stop Pushbutton or 🚨 Emergency Pushbutton is pressed and the conveyor is off:
   - 🔴 Stop Light and 🔴 Red Stack Light are turned on.
   - They are latched to stay on until reset.
 
-### Reset Logic
-
+**Reset Logic:**
 - When the 🔄 Reset Pushbutton is pressed:
   - The simulation is reset.
 
-### Warning Lights Logic
-
+**Warning Lights Logic:**
 - The ⚠️ Warning Lights are turned on when the conveyor is on.
 - They are reset when the conveyor is off.
 
-### Yellow Stack Light Logic
-
+**Yellow Stack Light Logic:**
 - The 💛 Yellow Stack Light is on when:
   - The conveyor is on or
   - The 🔄 Retroreflective PE Sensor is blocked.
 
 This logic orchestrates the behavior of the PLC, ensuring a dynamic and responsive control system for the simulated industrial environment. 🛠️✨
+
+
+
+
 
