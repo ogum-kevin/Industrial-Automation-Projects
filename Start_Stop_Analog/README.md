@@ -84,7 +84,7 @@ In the intricately woven tapestry of FactoryIO, KepserverEx, Node-RED and Codesy
    - **Feedback to FactoryIO:** The PLC communicates feedback and control signals back to FactoryIO, closing the loop of interaction and mirroring the bidirectional nature of real-world industrial systems.
 
 4. **KepserverEX to Node-RED:**
-   - **Control Logic Execution:** Codesys PLC executes control logic based on the received data, influencing the behavior of the simulated industrial processes.
+   - **Dashboard Visualization:** Node RED visualizes the parameters of the .
    - **Feedback to FactoryIO:** The PLC communicates feedback and control signals back to FactoryIO, closing the loop of interaction and mirroring the bidirectional nature of real-world industrial systems.
 
 This communication triad forms a dynamic cycle, where data generated in FactoryIO influences the actions of the Codesys PLC, and the subsequent control signals from the PLC shape the ongoing simulation within FactoryIO.
