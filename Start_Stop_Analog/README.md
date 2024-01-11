@@ -37,7 +37,7 @@ Visualizing real-time data: Monitor conveyor status, sensor readings, and perfor
 
 **Examples:**
 
-1. ** Assembly Lines:**
+1. **Assembly Lines:**
 
 - **Optimizing production flow:** Simulate and test different conveyor speeds and sequencing to optimize the flow of materials through an assembly line, minimizing bottlenecks and maximizing throughput.
 - **Remote line monitoring:** Monitor the status and performance of individual conveyors and the entire assembly line remotely, allowing for quicker troubleshooting and adjustments.
@@ -63,12 +63,13 @@ These are just a few examples, and the potential applications for your project a
 | ![Codesys Logo](../images/Codesys_Logo.png.png)  | Codesys PLC: Responsible for logic and control.            |
 | ![FactoryIO Logo](../images/FactoryIOLogo.png) | FactoryIO: Simulates the industrial environment.          |
 | ![KepserverEx Logo](../images/KepserverExLogo.webp) | KepserveeEX: OPC-UA Client(Links FactoryIO to PLC).          |
+| ![KepserverEx Logo](../images/KepserverExLogo.webp) | KepserveeEX: OPC-UA Client(Links FactoryIO to PLC).          |
 
 *Figure 1: System Architecture*
 
 **Communication Flow in the System Architecture:**
 
-In the intricately woven tapestry of FactoryIO, KepserverEx, and Codesys PLC, a synchronized dance of data ensures the seamless orchestration of industrial automation. Let's unravel the communication flow that propels this synergy:
+In the intricately woven tapestry of FactoryIO, KepserverEx, Node-RED and Codesys PLC, a synchronized dance of data ensures the seamless orchestration of industrial automation. Let's unravel the communication flow that propels this synergy:
 
 1. **FactoryIO to KepserverEx:**
    - **Data Generation:** Within FactoryIO, dynamic scenarios unfold as it generates realistic data representing the industrial environment, from conveyor movements to sensor inputs.
@@ -79,6 +80,10 @@ In the intricately woven tapestry of FactoryIO, KepserverEx, and Codesys PLC, a 
    - **Data Transmission:** The translated data is then relayed to the Codesys PLC, acting as the digital maestro orchestrating logic and control operations.
 
 3. **Codesys PLC to FactoryIO:**
+   - **Control Logic Execution:** Codesys PLC executes control logic based on the received data, influencing the behavior of the simulated industrial processes.
+   - **Feedback to FactoryIO:** The PLC communicates feedback and control signals back to FactoryIO, closing the loop of interaction and mirroring the bidirectional nature of real-world industrial systems.
+
+4. **KepserverEX to Node-RED:**
    - **Control Logic Execution:** Codesys PLC executes control logic based on the received data, influencing the behavior of the simulated industrial processes.
    - **Feedback to FactoryIO:** The PLC communicates feedback and control signals back to FactoryIO, closing the loop of interaction and mirroring the bidirectional nature of real-world industrial systems.
 
