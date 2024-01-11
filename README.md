@@ -15,8 +15,8 @@ Explore cutting-edge industrial automation solutions leveraging Factory IO. This
 - **Documentation:** Each project comes with detailed documentation, providing insights into implementation, configuration, and usage.
 
 🚀 **Featured Projects:**
-- [Start and Stop Conveyor(Digital)](#)
-- [Start ,Stop and vary speed of Analog conveyor both Locally and Remotely](#)
+- [Start and Stop Conveyor(Digital) with FactoryIO,KepserverEx and Codesys PLC](#)
+- [Start ,Stop and vary speed of Analog conveyor both Locally and Remotely with FactoryIO,KepserverEx IOT Gateway and NODE-Red](#)
 - [Packaging Line Automation](#)
 - [Robotic Arm Manipulation](#)
 
